@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #1e2023;
+  color: #ffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+div {
+  transition: 0.2s ease-in-out;
+}
+
+.title-msg {
+  font-size: 3vw;
+}
+
+.text-msg {
+  font-size: 2vw;
+}
+
+.title {
+  font-size: 5vw;
+}
+
+span {
+  margin: 1rem;
+  font-size: 2.5vw;
+  color: #aefc17;
+}
+
+.contador p {
+  font-size: 2vw;
+  margin: 0;
+}
+
+.credits{
+  opacity: 0.3;
+  font-size: 1.3vw;
+}
+
+@media (max-width: 580px) {
+
+  .title-msg {
+    font-size: 5vw;
+  }
+
+  .text-msg {
+    font-size: 4vw;
+  }
+
+  .title {
+    font-size: 8vw;
+  }
+
+  span {
+    font-size: 5vw;
+  }
+
+  .contador p {
+    font-size: 3vw;
+    margin: 1;
+  }
+
+  .credits{
+    opacity: 0.3;
+    font-size: 3vw;
+  }
+}
