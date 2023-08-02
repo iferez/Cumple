@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import GoogleMap from "./GoogleMap";
 
 const Countdown = () => {
   const [countdownDate, setCountdownDate] = useState(
@@ -55,7 +56,11 @@ const Countdown = () => {
           <span>{`${timeLeft.seconds} seconds`}</span>
           <br className="d-md-none" />
           <p>Para ir a comprar un regalo</p>
-          <br /><br /><br />
+          <br />
+          <GoogleMap />
+          <br />
+          <br />
+          <br />
           <h5 className="credits">By Shiionm</h5>
         </article>
       ) : (
