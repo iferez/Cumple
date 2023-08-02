@@ -47,13 +47,13 @@ const Countdown = () => {
       {timeLeft.days !== undefined ? (
         <article>
           <p>Tenes</p>
-          <span>{`${timeLeft.days} days`}</span>
+          <span>{`${timeLeft.days} dias`}</span>
           <br className="d-md-none" />
-          <span>{`${timeLeft.hours} hours`}</span>
+          <span>{`${timeLeft.hours} horas`}</span>
           <br className="d-md-none" />
-          <span>{`${timeLeft.minutes} minutes`}</span>
+          <span>{`${timeLeft.minutes} minutos`}</span>
           <br className="d-md-none" />
-          <span>{`${timeLeft.seconds} seconds`}</span>
+          <span>{`${timeLeft.seconds} segundos`}</span>
           <br className="d-md-none" />
           <p>Para ir a comprar un regalo</p>
           <br />
