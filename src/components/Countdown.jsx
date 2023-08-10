@@ -3,7 +3,7 @@ import GoogleMap from "./GoogleMap";
 
 const Countdown = () => {
   const [countdownDate, setCountdownDate] = useState(
-    new Date("2023-08-10T00:00:00").getTime()
+    new Date("2023-08-10T20:30:00").getTime()
   );
   const [timeLeft, setTimeLeft] = useState({});
   const [endTime, setEndTime] = useState(false);
@@ -64,7 +64,7 @@ const Countdown = () => {
           <h5 className="credits">By Shiionm</h5>
         </article>
       ) : (
-        <p>{endTime && <strong>¡Es hoy!</strong>}</p>
+        <><p>{endTime && <strong>¡Es hoy!</strong>}</p><GoogleMap /></>
       )}
     </div>
   );
